@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f3fa966e_7eead82b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 43
+      },
+      "writtenOn": "2020-01-02T14:01:55Z",
+      "side": 1,
+      "message": "Who is this instruction aimed at? Is there a Jira issue or other tracking of who is accountable for amending this change or is this just a shout into the wilderness?",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 25
+      },
+      "revId": "412c6ffd989483c9c87652306ecbd6215893a490",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a28578ee_e85db4a1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 43
+      },
+      "writtenOn": "2020-01-02T14:01:55Z",
+      "side": 1,
+      "message": "Is this a statement of what the code does or a TODO identifying something that is currently broken? The phrase \"must be extracted\" leaves some doubt as to whether it is describing what the automation has been written to do.\n\nMy interpretation of this would be that if INFO.yaml follows the example at the URL mentioned in this commit, then the LF-CI code that processes it would use the contents of\n\n committers:\n     - \u003c\u003c: *example_example_ptl\n\nto populate\n\n project_lead: \u0026example_example_ptl\n     name: \u0027\u0027\n     email: \u0027\u0027\n     id: \u0027\u0027\n     company: \u0027\u0027\n     timezone: \u0027\u0027\n\nBut I think the commit message would be clearer if instead of \"must be extracted\" it said something like \"the automation will extract the PTL information from the list of committers\".",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 67
+      },
+      "revId": "412c6ffd989483c9c87652306ecbd6215893a490",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": false
+    }
+  ]
+}
