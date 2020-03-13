@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "dcd59a37_1dbcb53d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 133
+      },
+      "writtenOn": "2020-03-13T18:40:26Z",
+      "side": 1,
+      "message": "This is aimed at the PTL.",
+      "parentUuid": "f3fa966e_7eead82b",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 25
+      },
+      "revId": "412c6ffd989483c9c87652306ecbd6215893a490",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a28578ee_e85db4a1",
         "filename": "/COMMIT_MSG",
         "patchSetId": 2
@@ -45,6 +69,30 @@
       "revId": "412c6ffd989483c9c87652306ecbd6215893a490",
       "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "33107db2_cfa6e085",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 133
+      },
+      "writtenOn": "2020-03-13T18:40:26Z",
+      "side": 1,
+      "message": "It\u0027s saying that the project lead should be one of the committers, so the project lead should be moved from that list to the project_lead section.",
+      "parentUuid": "a28578ee_e85db4a1",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 67
+      },
+      "revId": "412c6ffd989483c9c87652306ecbd6215893a490",
+      "serverId": "4cada01b-0314-4fe0-84a1-f9ddc89863f9",
+      "unresolved": true
     }
   ]
 }
